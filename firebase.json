@@ -20,7 +20,7 @@
     }
   ],
   "hosting": {
-    "public": "dist/nhs-attendance-tracker",
+    "public": "dist/nhs-attendance-tracker/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -29,7 +29,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "index.html"
       }
     ]
   },
